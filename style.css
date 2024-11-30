@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+.slide{
+    width: 1000px;
+    height: 600px;
+    background-image: url("img1.jpg");
+    background-size: cover;
+    margin: 100px auto;
+    animation: slide 11s infinite ;
+}
+@keyframes slide{
+    25%{
+        background-image:url("img1.jpg") ;
+    }
+    50%{
+        background-image:url("img2.jpg") ;
+    }
+    75%{
+        background-image:url("img3.jpg") ;
+    }
+    100%{
+        background-image:url("img4.jpg") ;
+    }
+}
